@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {
+    "net5.0": {
       "Sistema.Entidade/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -22,7 +22,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": [
+    "net5.0": [
       "Sistema.Entidade >= 1.0.0"
     ]
   },
@@ -34,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\breno.hcrocha\\source\\repos\\Sistema\\Sistema.View\\Sistema.View.csproj",
-      "projectName": "Sistema.View",
-      "projectPath": "C:\\Users\\breno.hcrocha\\source\\repos\\Sistema\\Sistema.View\\Sistema.View.csproj",
+      "projectUniqueName": "C:\\Users\\breno.hcrocha\\source\\repos\\Sistema\\Sistema.DAO\\Sistema.DAO.csproj",
+      "projectName": "Sistema.DAO",
+      "projectPath": "C:\\Users\\breno.hcrocha\\source\\repos\\Sistema\\Sistema.DAO\\Sistema.DAO.csproj",
       "packagesPath": "C:\\Users\\breno.hcrocha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\breno.hcrocha\\source\\repos\\Sistema\\Sistema.View\\obj\\",
+      "outputPath": "C:\\Users\\breno.hcrocha\\source\\repos\\Sistema\\Sistema.DAO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -51,15 +51,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
             "C:\\Users\\breno.hcrocha\\source\\repos\\Sistema\\Sistema.Entidade\\Sistema.Entidade.csproj": {
               "projectPath": "C:\\Users\\breno.hcrocha\\source\\repos\\Sistema\\Sistema.Entidade\\Sistema.Entidade.csproj"
@@ -74,8 +74,8 @@
       }
     },
     "frameworks": {
-      "net5.0-windows7.0": {
-        "targetAlias": "net5.0-windows",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -89,9 +89,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
